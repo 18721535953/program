@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NFSyncModule">
+      <UniqueIdentifier>{ad5d009c-1b04-4908-bad2-4fbb3fb70803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFgame">
+      <UniqueIdentifier>{ca2648e6-36dd-4163-9791-b22482d4b8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFBuffModule">
+      <UniqueIdentifier>{fbcfc272-af36-413f-99c1-b856324f8645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFLogic">
+      <UniqueIdentifier>{5c292a6b-3e9c-4630-b9f9-4c6bb6790fe4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NFGameLogicPlugin.h" />
+    <ClInclude Include="card_logic.h">
+      <Filter>NFgame</Filter>
+    </ClInclude>
+    <ClInclude Include="global_var.h">
+      <Filter>NFgame</Filter>
+    </ClInclude>
+    <ClInclude Include="type_area.h">
+      <Filter>NFgame</Filter>
+    </ClInclude>
+    <ClInclude Include="NFCBuffModule.h">
+      <Filter>NFBuffModule</Filter>
+    </ClInclude>
+    <ClInclude Include="NFCSyncModule.h">
+      <Filter>NFSyncModule</Filter>
+    </ClInclude>
+    <ClInclude Include="type_mogo.h">
+      <Filter>NFgame</Filter>
+    </ClInclude>
+    <ClInclude Include="NFCGameLogicModule.h">
+      <Filter>NFLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="NFCTableManagerModule.h">
+      <Filter>NFLogic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NFGameLogicPlugin.cpp" />
+    <ClCompile Include="card_logic.cpp">
+      <Filter>NFgame</Filter>
+    </ClCompile>
+    <ClCompile Include="type_area.cpp">
+      <Filter>NFgame</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>NFSyncModule</Filter>
+    </ClCompile>
+    <ClCompile Include="NFCBuffModule.cpp">
+      <Filter>NFBuffModule</Filter>
+    </ClCompile>
+    <ClCompile Include="NFCSyncModule.cpp">
+      <Filter>NFSyncModule</Filter>
+    </ClCompile>
+    <ClCompile Include="type_mogo.cpp">
+      <Filter>NFgame</Filter>
+    </ClCompile>
+    <ClCompile Include="NFCGameLogicModule.cpp">
+      <Filter>NFLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="NFCTableManagerModule.cpp">
+      <Filter>NFLogic</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

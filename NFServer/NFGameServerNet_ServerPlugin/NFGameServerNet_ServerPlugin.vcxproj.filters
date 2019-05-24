@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="NFGameServerNet_ServerPlugin.h" />
+    <ClInclude Include="NFCGameServerNet_ServerModule.h" />
+    <ClInclude Include="cfg_reader.hpp">
+      <Filter>OldDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.hpp">
+      <Filter>OldDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="type_mogo_def.hpp">
+      <Filter>OldDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="util.hpp">
+      <Filter>OldDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.hpp">
+      <Filter>OldDefine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="NFGameServerNet_ServerPlugin.cpp" />
+    <ClCompile Include="NFCGameServerNet_ServerModule.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="OldDefine">
+      <UniqueIdentifier>{5d459308-0805-4905-8834-23526f11bd95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

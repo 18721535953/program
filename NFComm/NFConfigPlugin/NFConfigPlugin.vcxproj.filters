@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="NFConfigPlugin.cpp" />
+    <ClCompile Include="NFCElementModule.cpp" />
+    <ClCompile Include="NFCClassModule.cpp" />
+    <ClCompile Include="NFCCommonConfigModule.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NFConfigPlugin.h" />
+    <ClInclude Include="NFCElementModule.h" />
+    <ClInclude Include="NFCClassModule.h" />
+    <ClInclude Include="NFCCommonConfigModule.h" />
+  </ItemGroup>
+</Project>

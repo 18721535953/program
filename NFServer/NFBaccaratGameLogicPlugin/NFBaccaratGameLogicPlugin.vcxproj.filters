@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="NFBaccaratGameLogicPlugin.h" />
+    <ClInclude Include="NFTableModule\NFCTableManagerModule.h">
+      <Filter>NFTableModule</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\NFGameTable.h">
+      <Filter>NFTableModule</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\StructHPP\BetArea.hpp">
+      <Filter>NFTableModule\StructHPP</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\StructHPP\CardRecordItem.hpp">
+      <Filter>NFTableModule\StructHPP</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\StructHPP\CPlayerCards.hpp">
+      <Filter>NFTableModule\StructHPP</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\StructHPP\GameConfig.hpp">
+      <Filter>NFTableModule\StructHPP</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\StructHPP\NFMatchLog.hpp">
+      <Filter>NFTableModule\StructHPP</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\StructHPP\NFTableUser.hpp">
+      <Filter>NFTableModule\StructHPP</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\GameTableState\TableStateCalculateResult.hpp">
+      <Filter>NFTableModule\GameTableState</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\GameTableState\TableStateDeal.hpp">
+      <Filter>NFTableModule\GameTableState</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\GameTableState\TableStateFillCard.hpp">
+      <Filter>NFTableModule\GameTableState</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\GameTableState\TableStateIdle.hpp">
+      <Filter>NFTableModule\GameTableState</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\GameTableState\TableStateWagerOne.hpp">
+      <Filter>NFTableModule\GameTableState</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\GameTableState\TableStateWagerTwo.hpp">
+      <Filter>NFTableModule\GameTableState</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\GameTableState\TableStateWaitForNextGame.hpp">
+      <Filter>NFTableModule\GameTableState</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\GameTableState\TableStateWaitGameStart.hpp">
+      <Filter>NFTableModule\GameTableState</Filter>
+    </ClInclude>
+    <ClInclude Include="NFTableModule\GameTableState\TableStateWithAnimation.hpp">
+      <Filter>NFTableModule\GameTableState</Filter>
+    </ClInclude>
+    <ClInclude Include="NFGameLogicModule\NFCItemBankerFillProcessModule.h">
+      <Filter>NFGameLogicModule\Logic\FillCardProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="NFGameLogicModule\NFCItemNotBankerFillProcessModule.h">
+      <Filter>NFGameLogicModule\Logic\FillCardProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="NFGameLogicModule\NFCControlCardModule.h">
+      <Filter>NFGameLogicModule\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="NFGameLogicModule\NFCGameLogicModule.h">
+      <Filter>NFGameLogicModule\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="NFGameLogicModule\NFBaccaratExpendLogic.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NFBaccaratGameLogicPlugin.cpp" />
+    <ClCompile Include="NFTableModule\NFCTableManagerModule.cpp">
+      <Filter>NFTableModule</Filter>
+    </ClCompile>
+    <ClCompile Include="NFTableModule\NFGameTable.cpp">
+      <Filter>NFTableModule</Filter>
+    </ClCompile>
+    <ClCompile Include="NFGameLogicModule\NFCItemBankerFillProcessModule.cpp">
+      <Filter>NFGameLogicModule\Logic\FillCardProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="NFGameLogicModule\NFCItemNotBankerFillProcessModule.cpp">
+      <Filter>NFGameLogicModule\Logic\FillCardProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="NFGameLogicModule\NFCControlCardModule.cpp">
+      <Filter>NFGameLogicModule\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="NFGameLogicModule\NFCGameLogicModule.cpp">
+      <Filter>NFGameLogicModule\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="NFGameLogicModule\NFBaccaratExpendLogic.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NFGameLogicModule">
+      <UniqueIdentifier>{95399da6-f410-4d65-8bec-f599654e912a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFTableModule">
+      <UniqueIdentifier>{cca0ddf4-c69d-4f12-b6bc-486dd34fd646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFTableModule\StructHPP">
+      <UniqueIdentifier>{51565e3a-c7ba-4a9f-a2e7-0e477be22ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFTableModule\GameTableState">
+      <UniqueIdentifier>{8418d4b2-f705-416e-b101-5b0f3bf1ae26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFGameLogicModule\Logic">
+      <UniqueIdentifier>{b20a45b0-26d6-417c-9ac3-b9a0c7be74e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFGameLogicModule\Logic\FillCardProcess">
+      <UniqueIdentifier>{7b0bfb84-8c5f-4445-8edd-e2940a5fea78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

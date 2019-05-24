@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<XML>
+	<Propertys>
+		<Property Id="EnableCheat" Cache="0" Desc="是否启用作弊 0:不开�?1：开�?" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="GameId" Cache="0" Desc="如：50001001" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="MaxBetRange" Cache="0" Desc="最多下注的跳动范围，百分比" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="aes_key" Cache="0" Desc="AES的Key配置" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="string" Upload="0" />
+		<Property Id="area_jingweidu" Cache="0" Desc="最小纬�?最小经�?最大纬�?最大经�?" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="string" Upload="0" />
+		<Property Id="area_num" Cache="0" Desc="区域编号,3位数，用于包桌，同一个游戏的区域编号不能重复" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="bean_name" Cache="0" Desc="豆的名称" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="string" Upload="0" />
+		<Property Id="bet_sec" Cache="0" Desc="下注时间" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="cis_key" Cache="0" Desc="CIS的Key配置" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="string" Upload="0" />
+		<Property Id="clients" Cache="0" Desc="信任的客户端ip 用','分割" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="string" Upload="0" />
+		<Property Id="endId" Cache="0" Desc="" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="gameRoomId" Cache="0" Desc="游戏类型（如：百家乐：50003）" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="master_fs_id" Cache="0" Desc="主fsId" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="max_offline_sec" Cache="0" Desc="断线后，多长时间不返回按逃跑处理" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="max_pluto_count" Cache="0" Desc="限制客户端的同时发包" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="min_bean" Cache="0" Desc="进入条件" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="near_node" Cache="0" Desc="匹配多少米以内的附近的人 分n个节点来比较�?人游戏，每次大概3倍比较好,必须从小到大排序" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="string" Upload="0" />
+		<Property Id="realuser_max_waitsec" Cache="0" Desc="真人等待最长时间" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="revenue" Cache="0" Desc="抽水" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="robotBetChip" Cache="0" Desc="下注筹码选择配置，表示可以选择第几个筹�" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="string" Upload="0" />
+		<Property Id="robotBetMaxPercent" Cache="0" Desc="" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="robotBetMinPercent" Cache="0" Desc="" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="robotBetProportion" Cache="0" Desc="机器人在各区域下注比�" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="string" Upload="0" />
+		<Property Id="robotBetTotalMaxBean" Cache="0" Desc="机器人总下注最大额" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="robotBetTotalMinBean" Cache="0" Desc="机器人总下注最小额" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="robot_max_bean" Cache="0" Desc="机器人最大下注" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="robot_min_bean" Cache="0" Desc="机器人最小下注" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="score0" Cache="0" Desc="" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="string" Upload="0" />
+		<Property Id="score1" Cache="0" Desc="" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="string" Upload="0" />
+		<Property Id="score2" Cache="0" Desc="" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="string" Upload="0" />
+		<Property Id="score3" Cache="0" Desc="" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="string" Upload="0" />
+		<Property Id="sct3OfAKindScore" Cache="0" Desc="豹子喜分" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="slave_fs_id" Cache="0" Desc="从fsId,多个间用逗号分隔，没有填0" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="startId" Cache="0" Desc="机器人id配置，最少1024*2=2048个id，不能重复,共1024个桌子, 极限情况是每个真人都匹配2个机器人，这样 1024*3个人中有 1024*2个机器人" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="straightFlushScore" Cache="0" Desc="同花顺喜分" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+		<Property Id="vs_bet_round" Cache="0" Desc="第几轮可以 vs" Force="0" Private="0" Public="0" Ref="0" Save="0" Type="int" Upload="0" />
+	</Propertys>
+	<Records>
+	</Records>
+</XML>
